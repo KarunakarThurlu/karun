@@ -1,0 +1,85 @@
+body {
+  background: #4568dc;
+  background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+  background: linear-gradient(to right, #b06ab3, #4568dc);
+}
+.root {
+  background: #009fff;
+  background: -webkit-linear-gradient(to right, #ec2f4b, #009fff);
+  background: linear-gradient(to right, #ec2f4b, #009fff);
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 20px;
+}
+.root ul {
+  list-style: none;
+  display: flex;
+  color: white;
+  font-weight: 50px;
+}
+
+li {
+  width: 80px;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: aliceblue;
+}
+.skills ul li {
+  background: #6b2850;
+  background: -webkit-linear-gradient(to right, #493240, #dfeb74);
+  background: linear-gradient(to right, #493240, #6554b1);
+
+  padding: 20px;
+  text-decoration-color: whitesmoke;
+  display: inline-block;
+  list-style: none;
+  margin-left: 45px;
+  width: 15em;
+  height: 11em;
+  background-color: rgb(79 126 221);
+  box-shadow: 15px 5px 15px 0px rgb(1, 10, 10, 10);
+  margin-top: 20px;
+}
+.experience ul li {
+  background: #c31432;
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);
+  background: linear-gradient(to right, #240b36, #c31432);
+  padding: 20px;
+  text-decoration-color: whitesmoke;
+  display: inline-block;
+  list-style: none;
+  margin-left: 45px;
+  width: 58em;
+  height: 11em;
+  background-color: rgb(79 126 221);
+  box-shadow: 15px 5px 15px 0px rgb(1, 10, 10, 10);
+  margin-top: 20px;
+  border-top-left-radius: 27px;
+  border-bottom-right-radius: 30px;
+}
+.BioDataTitle {
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.biodata {
+  background: #8e0e00;
+  background: -webkit-linear-gradient(to right, #1f1c18, #8e0e00);
+  background: linear-gradient(to right, #1f1c18, #8e0e00);
+
+  padding: 20px;
+  text-decoration-color: whitesmoke;
+  display: inline-block;
+  list-style: none;
+  margin-left: 45px;
+  width: 78em;
+  height: 27em;
+  background-color: rgb(79 126 221);
+  box-shadow: 15px 5px 15px 0px rgb(1, 10, 10, 10);
+  margin-top: 20px;
+  border-top-left-radius: 27px;
+  border-bottom-right-radius: 30px;
+}
