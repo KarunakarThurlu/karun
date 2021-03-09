@@ -83,3 +83,10 @@ li {
   border-top-left-radius: 27px;
   border-bottom-right-radius: 30px;
 }
+.rating-checked {
+  color: orange;
+}
+.skills ul li img {
+  width: 10rem;
+  height: 10rem;
+}
