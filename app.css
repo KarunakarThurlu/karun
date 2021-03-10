@@ -89,4 +89,15 @@ li {
 .skills ul li img {
   width: 10rem;
   height: 10rem;
+  text-align: center;
+  align-items: center;
+}
+.skill-title {
+  text-align: center;
+}
+.img {
+  text-align: center;
+}
+.rating {
+  text-align: center;
 }
