@@ -1,103 +1,146 @@
-body {
-  background: #4568dc;
-  background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
-  background: linear-gradient(to right, #b06ab3, #4568dc);
-}
 .root {
-  background: #009fff;
-  background: -webkit-linear-gradient(to right, #ec2f4b, #009fff);
-  background: linear-gradient(to right, #ec2f4b, #009fff);
-  height: 50px;
-  display: flex;
-  justify-content: space-around;
+  background: #fab2ff;
+  background: -moz-linear-gradient(45deg, #fab2ff 0%, #1904e5 100%);
+  background: -webkit-linear-gradient(45deg, #fab2ff 0%, #1904e5 100%);
+  background: linear-gradient(45deg, #fab2ff 0%, #1904e5 100%);
+}
+.nav-bar {
+  background: #c86dd7;
+  background: -moz-linear-gradient(-125deg, #c86dd7 0%, #3023ae 100%);
+  background: -webkit-linear-gradient(-125deg, #c86dd7 0%, #3023ae 100%);
+  background: linear-gradient(-125deg, #c86dd7 0%, #3023ae 100%);
+  height: 40px;
   border-radius: 10px;
-  box-shadow: 20px;
+  color: white;
 }
-.root ul {
+.nav-bar img {
+  float: left;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50px;
+}
+
+.nav-bar ul {
   list-style: none;
   display: flex;
-  color: white;
-  font-weight: 50px;
+  justify-content: center;
+  margin: 0px;
 }
-
-li {
-  width: 80px;
-  font-size: 20px;
-  cursor: pointer;
+.nav-bar ul li {
+  margin: 10px;
+}
+.nav-bar li a {
   text-decoration: none;
-  color: aliceblue;
-}
-.skills ul li {
-  background: #6b2850;
-  background: -webkit-linear-gradient(to right, #493240, #dfeb74);
-  background: linear-gradient(to right, #493240, #6554b1);
-
-  padding: 20px;
-  text-decoration-color: whitesmoke;
-  display: inline-block;
-  list-style: none;
-  margin-left: 45px;
-  width: 15em;
-  height: 11em;
-  background-color: rgb(79 126 221);
-  box-shadow: 15px 5px 15px 0px rgb(1, 10, 10, 10);
-  margin-top: 20px;
-}
-.experience ul li {
-  background: #c31432;
-  background: -webkit-linear-gradient(to right, #240b36, #c31432);
-  background: linear-gradient(to right, #240b36, #c31432);
-  padding: 20px;
-  text-decoration-color: whitesmoke;
-  display: inline-block;
-  list-style: none;
-  margin-left: 45px;
-  width: 58em;
-  height: 11em;
-  background-color: rgb(79 126 221);
-  box-shadow: 15px 5px 15px 0px rgb(1, 10, 10, 10);
-  margin-top: 20px;
-  border-top-left-radius: 27px;
-  border-bottom-right-radius: 30px;
-}
-.BioDataTitle {
-  align-items: center;
+  color: #552b20;
   color: white;
+}
+.grid-container {
   text-align: center;
 }
-.biodata {
-  background: #8e0e00;
-  background: -webkit-linear-gradient(to right, #1f1c18, #8e0e00);
-  background: linear-gradient(to right, #1f1c18, #8e0e00);
-
-  padding: 20px;
-  text-decoration-color: whitesmoke;
-  display: inline-block;
-  list-style: none;
-  margin-left: 45px;
-  width: 78em;
-  height: 27em;
-  background-color: rgb(79 126 221);
-  box-shadow: 15px 5px 15px 0px rgb(1, 10, 10, 10);
-  margin-top: 20px;
-  border-top-left-radius: 27px;
-  border-bottom-right-radius: 30px;
+.grid-item {
+  background: #c86dd7;
+  background: -moz-linear-gradient(-125deg, #c86dd7 0%, #3023ae 100%);
+  background: -webkit-linear-gradient(-125deg, #c86dd7 0%, #3023ae 100%);
+  background: linear-gradient(-125deg, #c86dd7 0%, #3023ae 100%);
+  display: inline-flex;
+  height: 17em;
+  margin: 18px;
+  width: 20rem;
+  justify-content: center;
+  box-shadow: 15px 5px 15px 0px rgb(1 10 10);
+  color: white;
 }
-.rating-checked {
+.logo img {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50px;
+}
+.content img {
+  height: 10em;
+  width: 10em;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+}
+.checked {
   color: orange;
 }
-.skills ul li img {
-  width: 10rem;
-  height: 10rem;
+.unchecked {
+  color: white;
+}
+/*=====================Experience styles=========================*/
+
+.experience-container {
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.experience-item {
+  background: #380152;
+  background: -moz-linear-gradient(180deg, #380152 0%, #9903e3 100%);
+  background: -webkit-linear-gradient(180deg, #380152 0%, #9903e3 100%);
+  background: linear-gradient(180deg, #380152 0%, #9903e3 100%);
+
+  height: 17em;
+  margin: 30px;
+  color: white;
+
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  justify-content: center;
+  box-shadow: 15px 5px 15px 0px rgb(1 1 5);
+}
+
+/*=====================Experience styles=========================*/
+.info-container {
+  text-align: center;
+  justify-content: center;
+}
+.info-item {
+  background: #380152;
+  background: -moz-linear-gradient(180deg, #380152 0%, #9903e3 100%);
+  background: -webkit-linear-gradient(180deg, #380152 0%, #9903e3 100%);
+  background: linear-gradient(180deg, #380152 0%, #9903e3 100%);
+
+  height: 17em;
+  margin: 30px;
+  color: white;
+  border-radius: 18px;
+  justify-content: center;
+  box-shadow: 15px 5px 15px 0px rgb(1 10 10);
+}
+
+/*=====================Projects styles=========================*/
+
+.project-description {
+  padding: 15px;
+}
+.project-details {
+  display: flex;
+}
+.company-info {
+  justify-content: center;
+}
+.project-item {
+  background: #852d91;
+  background: -moz-linear-gradient(to right, #852d91 0%, #312a6c 99%);
+  background: -webkit-linear-gradient(to right, #852d91 0%, #312a6c 99%);
+  background: linear-gradient(to right, #852d91 0%, #312a6c 99%);
+
+  height: 17em;
+  margin: 30px;
+
+  border-radius: 18px;
+  box-shadow: 15px 5px 15px 0px rgb(1 10 10);
+}
+
+.s-icon {
+  justify-content: center;
   text-align: center;
   align-items: center;
+  color: white;
+  margin: 18px;
 }
-.skill-title {
-  text-align: center;
-}
-.img {
-  text-align: center;
-}
-.rating {
-  text-align: center;
+.footer a {
+  font-size: 2em;
 }
