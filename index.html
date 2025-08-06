@@ -1,25 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./app.css">
+</head>
 
-  <body class="root">
-    <div class="nav-bar">
-    <img src="../images/mypic.jpg" />
+<body>
+
+  <header>
+    <nav>
+      <div><strong>Karunakar Thurlu</strong></div>
+      <div>
+        <a href="#about">About Me</a>
+        <a href="#skills">My Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Side Projects</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="about">
+    <!-- Name -->
+    <div style="text-align: center; margin-bottom: 1.6rem;">
+      <h1 style="margin: 0; font-size: 2.4rem;">Karunakar Thurlu</h1>
+    </div>
+
+    <!-- Contact Row -->
+    <div style="
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  ">
+      <div>📞 +91-9701127427</div>
+      <div>✉️ karunakarthurlujava@gmail.com</div>
+      <div>
+        <a href="https://github.com/karunakarthurlu" target="_blank" style="text-decoration: none; color: #000;">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" width="20"
+            style="vertical-align: middle; margin-right: 4px;" />
+          GitHub
+        </a>
+      </div>
+      <div>
+        <a href="https://linkedin.com/in/karunakarthurlu" target="_blank"
+          style="text-decoration: none; color: #000;">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="LinkedIn" width="20"
+            style="vertical-align: middle; margin-right: 4px;" />
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <!-- Horizontal Line -->
+    <hr style="width: 100%; margin: 1rem auto 1.4rem auto; border: 0; border-top: 1px solid #ccc;" />
+
+    <!-- Short Bio -->
+    <div class="about">
+      <p style="text-align: left;">
+        Hello! I'm Karunakar, a passionate full stack <strong>Java</strong> developer <strong>6+</strong> years of expertise who loves building clean, efficient, and
+        user-friendly web applications. I have experience working with Spring Boot, ReactJS, GraphQL, and modern DevOps
+        tools. I’m always excited to work on meaningful side projects and contribute to open source.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <span class="skill-badge">Java</span>
+      <span class="skill-badge">Spring Boot</span>
+      <span class="skill-badge">Microservices</span>
+      <span class="skill-badge">Kafka</span>
+      <span class="skill-badge">ReactJS</span>
+      <span class="skill-badge">Rest API</span>
+      <span class="skill-badge">AWS</span>
+      <span class="skill-badge">GraphQL</span>
+      <span class="skill-badge">PostgreSQL</span>
+      <span class="skill-badge">MongoDB</span>
+      <span class="skill-badge">Docker</span>
+      <span class="skill-badge">Git</span>
+      <span class="skill-badge">CI/CD</span>
+      <span class="skill-badge">JUnit</span>
+      <span class="skill-badge">Maven</span>
+      <span class="skill-badge">Jenkins</span>
+      <span class="skill-badge">SQL</span>
+      <span class="skill-badge">GitHub</span>
+    </div>
+  </section>
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <p> 
+      <strong>Master of Computer Applications (MCA)</strong> from <strong>Sri Venkateswara University</strong>, Tirupati, India.
+      <small>Graduated in <strong>2018</strong> with an aggregate of <strong>80%</strong></small>
+    </p>
+    <p>
+      📚 During my Master's in Computer Applications, I learned about software development, databases, and solving computer problems.
+    </p>
+    <p>
+      💻 I worked on projects with classmates and professors, which helped me practice coding and understand how software is built.
+    </p>
+    <p>
+      🌱 I also stayed updated with the latest advancements in the field by attending workshops and seminars.
+    </p>
+    <p>
+      🚀 My Master's education has fueled my passion for creating innovative software solutions and prepared me for a career as a Full Stack Java Developer.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2>My Experience</h2>
+
+    <div class="experience-item">
+      <h3>Sr Application Developer @ Birlasoft</h3>
+      <p><small>November-2024 – Present</small></p>
       <ul>
-        <li><a href="./src/Skills.html">Skills</a></li>
-        <li><a href="./src/Projects.html">Projects</a></li>
-        <li><a href="./src/Biodata.html">Info</a></li>
-        <li><a href="./src/Experience.html">Experience</a></li>
+        <li>Developed the micro front-end of the entire web application using ReactJS with Vite.</li>
+        <li>Enhanced legacy backend code to meet Sonar quality standards, ensuring 80% test coverage.</li>
+        <li>Stay updated with the latest developments in Java, JavaScript and related technologies.</li>
+        <li>Quickly learned and applied new technologies like RPA and GraphQL for internal projects.</li>
+      </ul>
+      <h3>Sr Software Developer @ Birlasoft</h3>
+      <p><small>September-2023 – November-2024</small></p>
+      <ul>
+        <li>Built scalable web apps using Spring Boot and React.</li>
+        <li>Led a team to develop a merchant onboarding platform.</li>
+        <li>Optimized GraphQL APIs for faster client-side rendering.</li>
+        <li>Developed Kafka producers for efficient data streaming.</li>
+        <li>Contributed to building a bot for merchant onboarding and validations.</li>
+      </ul>
+      <h3>Software Developer @ Birlasoft</h3>
+      <p><small>April-2021 – September-2023</small></p>
+      <ul>
+        <li>Built scalable web apps using Spring Boot and React.</li>
+        <li>Created configuration files for Pivotal Cloud Foundry (PCF).</li>
+        <li>Quickly grasped new technologies like RPA and GraphQL for internal projects.</li>
       </ul>
     </div>
-  </body>
+
+    <div class="experience-item">
+      <h3>Software Engineer @ Cortexcraft</h3>
+      <p><small>August-2020 – April-2021</small></p>
+      <ul>
+        <li>Created a full-stack project from the ground up using Java and React.Js, delivering 100% on time.</li>
+        <li>Implemented role-based JWT security to ensure secure access control for the project.</li>
+        <li>Optimized database interactions with native SQL queries, enhancing query performance.</li>
+        <li>Introduced innovative technologies and methodologies, cutting development cycle times by 15%.</li>
+        <li>Collaborated with cross-functional teams to analyze requirements and deliver impactful solutions.</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <h3>Software Engineer @ SriyamSoft</h3>
+      <p><small>March-2019 – June-2020</small></p>
+      <ul>
+        <li>Delivered critical new features and resolved bugs for BIRDonCloud, improving application performance.</li>
+        <li>Collaborated with stakeholders to gather user requirements and document software functional activities.</li>
+        <li>Achieved 80% code coverage with unit tests using JUnit and Mockito.</li>
+        <li>Applied agile principles and worked in sprints to meet delivery timelines with quality.</li>
+        <li>Designed and developed POJOs, improving application modularity and reducing debugging time by 25%.</li>
+      </ul>
+    </div>
+  </section>
+
+
+
+
+  <section id="projects">
+    <h2>My Side Projects</h2>
+    <div class="project-cards">
+
+      <div class="project-card">
+        <h3>Expense Tracker</h3>
+        <p>A full-stack personal finance manager using React + Spring Boot + GraphQL. Includes dashboards, filtering,
+          and multi-tenant support.</p>
+        <a href="https://github.com/KarunakarThurlu/ExpenseTracker" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <h3>GitHub Profile Analyzer</h3>
+        <p>Analyzes GitHub user data and shows account stats, language distribution, and follower network using GitHub
+          API.</p>
+        <a href="https://karunakarthurlu.github.io/GitHubProfileTracker" target="_blank">Live Demo</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Java2Quiz</h3>
+        <p>A Java-based quiz platform for testing and sharing Java knowledge with a community of developers.</p>
+        <a href="https://github.com/KarunakarThurlu/QuizApp" target="_blank">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Awards Section -->
+  <section id="awards">
+    <h2>Awards</h2>
+    <ul>
+      <li><strong>Star Performer Award – 2024</strong> for developing a bot to automate merchant onboarding and
+        validation.</li>
+      <li><strong>ROC App Champion – 2024</strong> for implementing the ROC app from scratch, reducing onboarding time
+        by 40%.</li>
+    </ul>
+  </section>
+
+</body>
 
 </html>
